@@ -8,8 +8,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: Hosted Agent
+pool: 'test'
 
 steps:
 - task: Maven@3
